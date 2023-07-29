@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/*start header*/
+
+.links-about {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    width: 1200px;
+    flex: 1 1 auto;
+
+}
+
+.header div {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f9faf8;
+    margin-right: auto;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+/*end of header*/
+/*start gen. info*/
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 1200px;
+    flex: 0 0 auto;
+    margin-top: 100px;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    margin-right: auto;
+    max-width: 600px;
+    gap: 16px;
+
+}
+
+.hero-main-txt {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero-subtxt {
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #e5e7eb;
+    flex-wrap: wrap;
+}
+.about img {
+    display: flex;
+    flex: auto;
+    height: 186px;
+    width: auto;
+}
+
+.information button {
+    background-color: #3882f6;
+    align-self: flex-start;
+    padding: 8px 32px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    border-color: #3882f6;
+}
+
+.character-information {
+    background-color: white;
+}
+
+.nick-eh-30-quote {
+    background-color: lightgray;
+}
+
+.download {
+    background-color: rgb(76, 107, 192);
+}
+
